@@ -36,5 +36,27 @@
     <string name="forgot_password">Forgot password</string>
     <string name="sent_request">We have sent you request to reset your password!</string>
     <string name="fail_sent_request">Failed to send reset email request!</string>
+    <string name="customer_info">Customer Information</string>
+    <string name="hint_first_name">First Name *</string>
+    <string name="hint_last_name">Last Name *</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="hint_mobile_no">Mobile No *</string>
+    <string name="hint_continue">Continue</string>
+    <string name="hint_home_number">Home Number</string>
+    <string name="hint_email_id">Email ID</string>
+    <string name="hint_whats_app_no">Whatsapp Number</string>
+    <string name="hint_work_no">Work Number</string>
+    <string name="hint_alter_email_id">Alternative Email ID</string>
+    <string name="save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="hint_choose_project">Choose Project *</string>
+    <string name="hint_customer_type">Choose Customer Type</string>
+    <string name="hint_ChooseBuyingPlan">ChooseBuyingPlan</string>
+    <string name="hint_choose_budget_detail">Choose Budget Details</string>
+    <string name="hint_ChooseLooking">Choose Looking For</string>
+    <string name="hint_choose_residence">Choose Residence Type</string>
+    <string name="hint_residence_location">Residence Location</string>
+    <string name="hint_jobProfile">Job Profile</string>
+    <string name="hint_DecisionMaker">Decision Maker</string>
 </resources>
 

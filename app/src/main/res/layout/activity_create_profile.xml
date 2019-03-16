@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_16sdp"
+            app:cardElevation="@dimen/_16sdp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_16sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_32sdp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/profile"
+                    android:textAllCaps="true"
+                    android:textColor="#212121"
+                    android:textSize="@dimen/_16sdp" />
+
+
+                <Button
+                    android:id="@+id/btnChooseProject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:background="@drawable/edit_text_background"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:imeOptions="actionUnspecified"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:text="@string/hint_choose_project"
+                    android:textColor="#212121" />
+
+                <Button
+                    android:id="@+id/btnCustomerType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:background="@drawable/edit_text_background"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:focusableInTouchMode="true"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:text="@string/hint_customer_type"
+                    android:textColor="#212121" />
+
+
+                <Button
+                    android:id="@+id/btnChooseBudgetDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:background="@drawable/edit_text_background"
+                    android:textColor="#212121"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:text="@string/hint_choose_budget_detail"
+                    />
+
+                <Button
+                    android:id="@+id/btnChooseBuyingPlan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:background="@drawable/edit_text_background"
+                    android:textColor="#212121"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:text="@string/hint_ChooseBuyingPlan"
+                    />
+
+                <Button
+                    android:id="@+id/btnChooseLooking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:background="@drawable/edit_text_background"
+                    android:textColor="#212121"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:paddingRight="@dimen/_8sdp"
+                    android:text="@string/hint_ChooseLooking"
+                    />
+
+                <Button
+                    android:id="@+id/btnContinue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="@string/hint_continue"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+</RelativeLayout>
